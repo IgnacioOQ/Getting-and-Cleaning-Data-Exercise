@@ -23,7 +23,7 @@ X_train <- read.table("X_train.txt")
 y_train <- read.table("y_train.txt")
 
 setwd("..")
-
+setwd("..")
 
 #STEP 2: TIDY THE DATA, ASSIGNING THE RIGHT NAMES TO THE VARIABLES
 
@@ -142,6 +142,6 @@ for(i in 1:30){
 
 #STEP 7: WRITING THE RELEVANT DATA FRAMES INTO .txt FILES
 
-write.table(combined.data, file = "combined.data.txt")
-write.table(subsetted.data, file ="subsetted.data.txt")
-write.table(data.id.means, file = "data.id.means.txt")
+write.table(combined.data, file = "combined.data.txt",row.name=FALSE)
+write.table(subsetted.data, file ="subsetted.data.txt",row.name=FALSE)
+write.table(data.id.means, file = "data.id.means.txt",row.name=FALSE)
