@@ -17,4 +17,4 @@ The sixth step is to find the means and creating a data frame with them. First, 
 
 The final step is there just to write the data frames into the relevant files. 
 
-Note: I added a third file to the github repo, "combined.data.txt", which is all the data combined. It should not be confused with "subsetted.data.txt" which is what is required in assignment 2. The file required in assigment 5 is called "data.id.means.txt".# Getting-and-Cleaning-Data
+Note: I added a third file to the github repo, "combined.data.txt", which is all the data combined. It should not be confused with "subsetted.data.txt" which is what is required in assignment 2. The file required in assigment 5 is called "data.id.means.txt".
